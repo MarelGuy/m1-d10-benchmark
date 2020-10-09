@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+.headings{
+    font-weight: 700px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.newclass{
+    font-size: large;
+}
+
+tr{
+    border: 1px dotted;
+}
+
+th {
+    font-weight: 500px;
+}
+
+td {
+    font-weight: 300px;
+}
+
+table, th, td {
+  border: 1px solid green;
+}
+
+img{
+    width: 128px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(143,143,143);
+  color: white;
+}

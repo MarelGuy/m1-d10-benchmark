@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title> Genshin Impact Fansite </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+
+    <script>
+      console.log("page loaded");
+      function changeHeading(){
+        document.getElementById("head1").innerHTML = "Genshin Impact reviews";
+      }
+
+       function addClassToTr(){
+         document.getElementsByTagName("tr").addClass = "newclass";
+      }
+
+      function deleteTable(){
+        document.getElementById("del").deleteTable;
+      }
+    </script>
+
+  </head>
+  <body>
+      <div>
+      <h1 id="head1" class="headings">Genshin Impact</h1>
+      <h3 class="headings">Change the heading of the page!</h3>
+      <input type="button" value="Click Me!" onclick="changeHeading()">
+    </div>
+
+    <hr>
+
+    <div>
+      <h3 class="headings">Why the game got so famous in so little time?</h3>
+      <ul>
+        <li>It's a game that created a big hype in every anime watcher.</li>
+        <li>It's an unity game with animation made in CGI at high FPS, strange thing for CGI at these times.</li>
+        <li>The developer and publisher is the miHoYo, that means quality games and quality plots for their games.</li>
+        <li>Gameplay and game mechanics are totally new for the rpg gaming world.</li>
+      </ul>
+    </div>
+
+    <hr>
+    
+    <div>
+    <h4 class="headings">Reviews from official game reviwers:</h4>
+    <h6 class="headings">(click on the logos for the full review)</h6>
+<input type="button" value="Click me for adding a class!" onclick="addClassToTr()">
+     <table id="del">
+       <tr colspan="2">
+         <th>Reviewer</th>
+         <th>Logo</th>
+         <th>Brief review</th>
+         <th>Vote</th>   
+          <th>Date</th>    
+       </tr>
+        <tr>
+         <td>GameInformer</td>
+         <td><a href="https://www.gameinformer.com/review/genshin-impact/genshin-impact-review-into-the-great-wide-open">
+            <img src="https://sickr.files.wordpress.com/2013/03/game_informer_logo.jpg" alt="Sorry, image not available."></a></td>
+         <td>This is an amazing smorgasbord of exploration, discovery, combat, and customization worthy of your attention</td>
+          <td>9.5/10</td>
+          <td>Oct 02, 2020</td>
+        </tr>
+       <tr>
+         <td>TSA</td>
+          <td><a href="https://www.thesixthaxis.com/2020/10/05/genshin-impact-review-pc-ps4-ios-android/">
+            <img src="https://www.thesixthaxis.com/wp-content/uploads/2019/02/tsa2019.png" alt="sorry, image not available"></a></td>
+          <td>Genshin Impact needs to be played to be believed. This is an addictive open-world adventure with gorgeous art and unique combat...and it's free!</td>
+          <td>8/10</td>
+          <td>Oct 05, 2020</td>
+        </tr>
+        <tr>
+          <td>Screen Rant</td>
+          <td><a href="https://screenrant.com/genshin-impact-game-review/">
+          <img src="http://1.bp.blogspot.com/-3-tuAVGadH4/UInk7AGBmmI/AAAAAAAAAEQ/tdU_bGcgs7g/s1600/screen_rant_logo_design_f.jpg" alt="sorry, image not available"></a></td>
+          <td>All in all, Genshin Impact is a fantastic adventure RPG that feels like the first season of everyone's favorite anime.</td>
+          <td>4.5/5</t>
+          <td>Sep 30, 2020</td>
+        </tr>
+        <tr>
+          <td>Harcore Gamer</td>
+          <td style="background-color: black;"><a href="https://hardcoregamer.com/2020/10/06/review-genshin-impact/388937/">
+            <img class="main_logo" src="https://hardcore-gamer.s3.amazonaws.com/uploads/2017/08/HGMainSiteFont3c.png" alt="sorry, image not available"></a></td>
+          <td>Genshin Impact is a more-than-convincing proposition, not least for those adamant on never spending a single cent in-game.</td>
+          <td>4/5</td>
+          <td>Oct 6, 2020</td>
+        </tr>
+      </table>
+      <input type="button" value="Click me to delete the table" onclick="deleteTable()">
+    </div>
+<hr>
+    <footer>
+      <h4 class="headings">© Cuntreri Loris 2020-2020</h4>
+      <h4 class="headings">© 2012-2020 miHoYo, Genshin Impact 2020-2020</h4>
+    </footer>
+  </body>
